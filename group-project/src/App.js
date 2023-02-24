@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import FuelQuoteForm from './FuelQuoteForm';
 import HomePage from './HomePage';
 import LoginPage from './LoginPage';
+import Profile from './Profile';
 import './LoginPage.css';
 import './FQF.css';
 function App() {
