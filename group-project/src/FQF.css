@@ -1,0 +1,78 @@
+.FuelQuoteForm{
+  max-width: auto;
+  margin: 3% auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #647fdd; /* Muted background color */
+}
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+body {
+  background-color: #3f7b7ed8;
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px; 
+  text-align: center;
+}
+
+.input {
+  display:grid;;
+  justify-content: center;
+  width: 900px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 60px;
+  border: none;
+
+  font-size: 16px;
+  
+  
+}
+button {
+  margin-top: 10px;
+  background-color: #57799e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.background-image 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  z-index: -1;
+}
