@@ -26,12 +26,16 @@ function App() {
             <li
               onClick={() => handleNavClick('fuel')}>Fuel Quote Form
             </li>
+            <li
+              onClick={() => handleNavClick('profile')}>Profile 
+            </li>
           </ul>
         </nav>
 
       {currentPage === 'home' && <HomePage />}
       {currentPage === 'fuel' && <FuelQuoteForm />}
       {currentPage === 'login' && <LoginPage />}
+      {currentPage === 'profile' && <Profile />}
       </div>
   );
 }
