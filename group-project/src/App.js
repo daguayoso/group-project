@@ -4,7 +4,7 @@ import FuelQuoteForm from './FuelQuoteForm';
 import HomePage from './HomePage';
 import LoginPage from './LoginPage';
 import './LoginPage.css';
-
+import './FQF.css';
 function App() {
   const [currentPage, setCurrentPage] = useState('login');
 
