@@ -18,10 +18,10 @@ return(
                 display?<div>
                     <h1 className='title'>Sign Up</h1>
                     <div>
-                        <div className='field_container'>
+                        {/*<div className='field_container'>
                         <input placeholder='First Name' className='name'/>
                         <input placeholder='Last Name' className='name'/>
-                        </div>
+                        </div> */}
                         <div className='field_container'>
                             <input placeholder='Email' className='otherField'/>
                         </div>
