@@ -8,11 +8,10 @@
   justify-content: center;
   height: 400px;
   width: 25%;
-  background-color: #133345;
+  background-color: #182B21;
   margin: 10% auto;
   padding-top: 30px;
   border-radius: 60px;
-  /* box-shadow: 11px 12px 13px 12px rgb(207, 207, 207); */
 }
 input
 {
@@ -37,7 +36,7 @@ input
 {
   height: 35px;
   width: 55%;
-  background-color: lightskyblue;
+  background-color: #284335;
   color: white;
   border-radius: 60px;
 }
@@ -45,7 +44,7 @@ input
 {
   height: 35px;
   width: 82%;
-  background-color: lightblue;
+  background-color: #206040;
   color: white;
   border-radius: 60px;
 }
@@ -63,7 +62,7 @@ input
 } */
 .main_button
 {
-  padding-top: 40px;
+  padding-top: 55px;
 }
 .title
 {
@@ -71,7 +70,7 @@ input
 }
 .login_button
 {
-  padding-top: 65px;
+  padding-top: 55px;
 }
 .background-image 
 {
