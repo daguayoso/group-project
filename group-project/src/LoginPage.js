@@ -23,7 +23,7 @@ return(
                         <input placeholder='Last Name' className='name'/>
                         </div> */}
                         <div className='field_container'>
-                            <input placeholder='Email' className='otherField'/>
+                            <input placeholder='Username' className='otherField'/>
                         </div>
                         <div className='field_container'>
                         <input placeholder='Password' type={show?"text":"password"} className='otherField'/>
