@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 function FuelQuoteForm() {
-  const [address, setAddress] =useState('')
+  const [address, setAddress] =useState('12345 Destination rd Houston TX 76543')
   const [gallons, setGallons] = useState('');
   const [deliveryDate, setDeliveryDate] = useState('');
   const [price, setPrice] = useState('2.88');
@@ -39,6 +39,7 @@ function FuelQuoteForm() {
           <input
             type ='text'
             value = {address}
+            readOnly
             onChange={(event) => setAddress(event.target.value)}
           />
         </div>
@@ -47,6 +48,7 @@ function FuelQuoteForm() {
           <input
             type="date"
             value={deliveryDate}
+            
             onChange={(event) => setDeliveryDate(event.target.value)}
           />
         </div>
@@ -75,3 +77,4 @@ function FuelQuoteForm() {
 }
 
 export default FuelQuoteForm;
+
