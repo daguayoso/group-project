@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 function FuelQuoteForm() {
   const [address, setAddress] =useState('')
   const [gallons, setGallons] = useState('');
@@ -20,7 +21,8 @@ function FuelQuoteForm() {
   };
 
   return (
-    <div className="App">
+    <div className="FuelQuoteFrom">
+    
       <h1>Fuel Quote Form</h1>
       <form onSubmit={handleSubmit}>
         <div>
@@ -49,7 +51,7 @@ function FuelQuoteForm() {
           />
         </div>
         <div>
-          <label>Suggested Price / gallon:</label>
+          <label>Suggested Price / Gallon:</label>
           <input
             type="number"
             value={price}
