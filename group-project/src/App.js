@@ -24,6 +24,9 @@ function App() {
               onClick={() => handleNavClick('login')}>Login Page
             </li> 
             <li
+              onClick={() => handleNavClick('profile')}>Profile
+            </li>
+            <li
               onClick={() => handleNavClick('home')}>Home
             </li>
             <li
@@ -39,6 +42,7 @@ function App() {
       {currentPage === 'home' && <HomePage />}
       {currentPage === 'fuel' && <FuelQuoteForm />}
       {currentPage === 'login' && <LoginPage />}
+      {currentPage === 'profile' && <Profile />}
       {currentPage === 'history' && <FuelQuoteHistory/>}
       </div>
   );
