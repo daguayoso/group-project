@@ -5,6 +5,8 @@ import FuelQuoteHistory from './FuelQuoteHistory';
 import HomePage from './HomePage';
 import LoginPage from './LoginPage';
 import './LoginPage.css';
+import Profile from './Profile';
+import './Profile.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('login');
