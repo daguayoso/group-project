@@ -36,7 +36,7 @@ return(
                 <h1 className='title'>Login</h1>
                 <div>
                     <div className='field_container'>
-                        <input placeholder='Email' className='otherField'/>
+                        <input placeholder='Username' className='otherField'/>
                     </div>
                     <div className='field_container'>
                     <input placeholder='Password' type={show?"text":"password"} className='otherField'/>
