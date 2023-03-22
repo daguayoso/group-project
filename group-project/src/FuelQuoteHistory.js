@@ -1,23 +1,21 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import FuelQuoteForm from './FuelQuoteForm';
+import React, { useEffect, useState } from 'react';
+import FuelQuoteHistoryTable from './FuelQuoteHistoryTable';
 
+function FuelQuoteHistory() {
+  const [fuelQuoteHistory, setFuelQuoteHistory] = useState([]);
 
-function FuelQuoteHistory(){
+  useEffect(() => {
+    const storedFuelQuoteHistory = JSON.parse(localStorage.getItem('fuelQuoteHistory')) || [];
+    setFuelQuoteHistory(storedFuelQuoteHistory);
+  }, []);
 
-    return (
-        <table>
-  <tr>
-    <th>Full Name</th>
-    <th>Address 1</th> 
-    <th>Address 2</th>
-    <th>City</th>
-    <th>State</th>
-    <th>Zipcode</th>
-  </tr>
-</table>
-    );
-
+  return (
+    <div>
+      <h1>Fuel Quote History</h1>
+      <FuelQuoteHistoryTable fuelQuoteHistory={fuelQuoteHistory} />
+    </div>
+  );
 }
 
-export default FuelQuoteHistory
+export default FuelQuoteHistory;
+
